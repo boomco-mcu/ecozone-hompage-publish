@@ -21,7 +21,7 @@ import Success from "./pages/Success";
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Router>
+      <Router basename="/ecozone-hompage-publish">
         <ScrollToTop />
         <Navbar />
         <Routes>
